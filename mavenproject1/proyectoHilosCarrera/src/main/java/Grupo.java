@@ -44,73 +44,74 @@ public class Grupo {
     }
     
     public void imprimirRecorrido(){
-        String recorrido=("\n"); 
+        String recorrido=("\n"+"grupo "+numeroGrupo+"->  "); 
         if(pasos<33){
             for(int i=0;i<pasos;i++){
-                 recorrido = recorrido+"_";
+              recorrido = recorrido+"_";
             }
             recorrido+=figura;
-                for(int i=pasos;i<32;i++){
-                    recorrido = recorrido+"_";
-                }
-                recorrido+=figura;
+            for(int i=pasos;i<32;i++){
+              recorrido = recorrido+"_";
+            }
+            recorrido+=figura;
                  
-                    for(int i=33;i<66;i++){
-                    recorrido = recorrido+"_";
-                    }
-                    recorrido+=figura;
+            for(int i=33;i<66;i++){
+             recorrido = recorrido+"_";
+            }
+            recorrido+=figura;
                     
-                        for(int i=66;i<=100;i++){
-                            recorrido = recorrido+"_";
-                        }
+            for(int i=66;i<=100;i++){
+              recorrido = recorrido+"_";
+            }
                         
-                        System.out.println("Equipo numero: "+numeroGrupo+"   "+ recorrido);
+        System.out.print(recorrido);
         }
         
         if (pasos >= 33 && pasos < 66) {
             
             for (int i = 0; i < 33; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
             recorrido += figura;
             for (int i = 33; i < pasos; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
             recorrido += figura;
             for (int i = pasos; i < 65; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
             recorrido += figura;
             for (int i = 66; i <= 100; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
 
-            System.out.print("Equipo numero: "+numeroGrupo+"   "+ recorrido);
+          System.out.print(recorrido);
 
         }
         if (pasos >= 66) {
            
             for (int i = 0; i < 33; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
             recorrido += figura;
             for (int i = 33; i < 66; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
             recorrido += figura;
             for (int i = 66; i <= pasos; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
             recorrido += figura;
             for (int i = pasos; i < 99; i++) {
-                recorrido = recorrido + ".";
+                recorrido = recorrido + "_";
             }
 
             System.out.print( recorrido);
 
         }
 
-        System.out.print("Equipo numero: "+numeroGrupo+"   "+ recorrido);
+        
+            System.out.print(recorrido);
 
     }
     

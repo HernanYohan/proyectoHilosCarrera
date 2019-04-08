@@ -48,14 +48,16 @@ public class Corredor  extends Thread{
    while(grupo.getPasos()<grupo.getMeta() && grupo.getPasos() < llegada ){
        try{
            int numeroAleatorio = ut.numeroRandom();
-           grupo.setPasos(+numeroAleatorio);
+           grupo.setPasos(grupo.getPasos()+numeroAleatorio);
+           
+           grupo.imprimirRecorrido();
+     
            Thread.sleep(500);
            
             if(grupo.getPasos()>= grupo.getMeta()){
                 
-                System.out.println("\n EQUIPO GANADOR: "+grupo.getNumeroGrupo()+" ,Corredor: "+ nCorredor);
-                        
-                    System.exit(0);
+                System.out.println("\n Gano el grupo: : "+grupo.getNumeroGrupo());     
+                System.exit(0);
                 
             }else{
                     synchronized(grupo){
@@ -71,9 +73,7 @@ public class Corredor  extends Thread{
        
        
    }
-   
-   
-   
+
    } 
   
    @Override
