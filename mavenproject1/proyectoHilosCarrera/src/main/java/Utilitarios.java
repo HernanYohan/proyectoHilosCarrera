@@ -10,4 +10,12 @@
  */
 public class Utilitarios {
     
+    /**
+     * funcion que genera un numero aleatorio entre 1 y 3 y lo retorna
+     * @return 
+     */
+    public synchronized int numeroRandom(){
+       return (int) Math.floor(Math.random()*(3));
+    }
+    
 }
