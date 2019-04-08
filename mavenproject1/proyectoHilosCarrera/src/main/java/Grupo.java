@@ -18,7 +18,7 @@ public class Grupo {
     /**
      * variable que indica el numero de pasos que ha dado 
      */
-    private int pasos;
+    private int pasos = 0;
     /**
      * Variable que indica el grupo al que pertenece 
      */
@@ -32,13 +32,13 @@ public class Grupo {
     /**
      * Constructor que inicializa todas las variable 
      * @param meta
-     * @param pasos
+     * 
      * @param numeroGrupo
      * @param figura 
      */
-    public Grupo(int meta, int pasos, int numeroGrupo, String figura) {
+    public Grupo(int meta, int numeroGrupo, String figura) {
         this.meta = meta;
-        this.pasos = pasos;
+       
         this.numeroGrupo = numeroGrupo;
         this.figura = figura;
     }
