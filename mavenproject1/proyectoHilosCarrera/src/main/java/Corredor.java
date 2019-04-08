@@ -10,4 +10,10 @@
  */
 public class Corredor {
     
+    private int nAtleta;
+    private int salida;
+    private int entrada;
+    public Grupo grupo;
+    public Utilitarios ut;
+    
 }
