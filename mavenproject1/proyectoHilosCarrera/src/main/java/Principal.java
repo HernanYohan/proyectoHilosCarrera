@@ -9,11 +9,15 @@ import java.util.concurrent.Executors;
  */
 
 /**
- *
+ *@version 1.0
  * @author Hernan
+ * clase encargada de poner a correr los hilos 
  */
 public class Principal {
     
+    /**
+     * Funcion encargada de crear corredores y asiganrlos a un grupo para despues ejecutar el pool de hilos 
+     */
     public void iniciar (){
    
     
