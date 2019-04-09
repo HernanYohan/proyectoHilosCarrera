@@ -85,7 +85,7 @@ public class Corredor  extends Thread{
            Thread.sleep(100);
             if(grupo.getPasos()>= grupo.getMeta()){
                 
-                System.out.println("\n Gano el grupo: : "+grupo.getNumeroGrupo());     
+                System.out.println("\n Gano el grupo: : "+grupo.getNumeroGrupo()+" con la figura :  "+grupo.getFigura());     
                 System.exit(0);
                 
             }else{

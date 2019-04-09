@@ -42,7 +42,9 @@ public class Grupo {
         this.numeroGrupo = numeroGrupo;
         this.figura = figura;
     }
-    
+    /**
+     * Funcion que imprime el recorrido de cada grupo 
+     */
     public void imprimirRecorrido(){
         String recorrido=("\n"+"grupo "+numeroGrupo+". "+"pasos -> "+pasos+" "); 
         if(pasos<33){
@@ -106,35 +108,59 @@ public class Grupo {
         public int retornarPasos(){
             return pasos;
          }
-
+         /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public int getMeta() {
         return meta;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public void setMeta(int meta) {
         this.meta = meta;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public int getPasos() {
         return pasos;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public void setPasos(int pasos) {
         this.pasos = pasos;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public int getNumeroGrupo() {
         return numeroGrupo;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public void setNumeroGrupo(int numeroGrupo) {
         this.numeroGrupo = numeroGrupo;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public String getFigura() {
         return figura;
     }
-
+     /**
+     * Funcion que vuelve publica la variable
+     * @return 
+     */
     public void setFigura(String figura) {
         this.figura = figura;
     }
