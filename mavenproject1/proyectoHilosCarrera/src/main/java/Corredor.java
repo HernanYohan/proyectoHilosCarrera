@@ -71,9 +71,8 @@ public class Corredor  extends Thread{
                 Logger.getLogger(Corredor.class.getName()).log(Level.SEVERE, null, ex);   
             }
        
-       
    }
-
+   
    } 
   
    @Override

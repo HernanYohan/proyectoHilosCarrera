@@ -64,7 +64,7 @@ public class Grupo {
               recorrido = recorrido+"_";
             }
                         
-        System.out.print(recorrido);
+       
         }
         
         if (pasos >= 33 && pasos < 66) {
@@ -85,7 +85,7 @@ public class Grupo {
                 recorrido = recorrido + "_";
             }
 
-          System.out.print(recorrido);
+          
 
         }
         if (pasos >= 66) {
@@ -106,7 +106,7 @@ public class Grupo {
                 recorrido = recorrido + "_";
             }
 
-            System.out.print( recorrido);
+           
 
         }
 
