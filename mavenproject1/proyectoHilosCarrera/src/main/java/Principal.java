@@ -54,12 +54,7 @@ public class Principal {
             executer.execute(corredor8);
             executer.execute(corredor9);
         executer.shutdown();
-    
-    
-    
-    
-    
-    
+
     }
     
 }
